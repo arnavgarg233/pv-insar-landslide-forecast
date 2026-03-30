@@ -1,0 +1,42 @@
+[project]
+name = "7-day-landslide-forecasting"
+version = "0.1.0"
+description = "Seven-Day Landslide Forecasting from PCA-Derived InSAR Data with a Random Forest Classifier — Palos Verdes; ESEV, under peer review (ESEV-D-25-01196R3)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Arnav Garg" }]
+keywords = [
+  "insar",
+  "landslide-forecasting",
+  "principal-component-analysis",
+  "random-forest",
+  "pseudo-labeling",
+  "sentinel-1",
+  "sbas",
+  "gpm-imerg",
+  "remote-sensing",
+  "geohazard",
+]
+dependencies = [
+  "h5py>=3.10",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "xarray>=2023.1",
+  "scikit-learn>=1.3",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "netCDF4>=1.6",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+dev = ["ruff>=0.1"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["landslide_forecast*"]
