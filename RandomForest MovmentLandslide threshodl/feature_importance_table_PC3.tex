@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Random Forest feature importance rankings for 7-day landslide forecasting using PC1-3 from each orbit and daily rainfall. Importance values represent the mean decrease in Gini impurity (MDI) normalized to sum to 100\%.}
+\label{tab:feature_importance}
+\begin{tabular}{clcc}
+\toprule
+\textbf{Rank} & \textbf{Feature} & \textbf{Importance (\%)} & \textbf{Cumulative (\%)} \\
+\midrule
+1 & PC2 (Ascending) & 24.82 & 24.82 \\
+2 & PC2 (Descending) & 23.75 & 48.58 \\
+3 & Daily Rainfall & 14.36 & 62.94 \\
+4 & PC3 (Ascending) & 10.11 & 73.05 \\
+5 & PC1 (Ascending) & 10.06 & 83.11 \\
+6 & PC1 (Descending) & 8.81 & 91.92 \\
+7 & PC3 (Descending) & 8.08 & 100.00 \\
+\midrule
+\multicolumn{4}{l}{\textit{Model Performance: Accuracy = 86.11\%, F1 = 88.89\%, AUC = 92.37\%}} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Editors / OS
+.DS_Store
+**/._*
+.AppleDouble
+.vscode/
+.idea/
+
+# Large scientific / binary data (place locally after clone; see README)
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.nc
+*.nc4
+*.tif
+*.tiff
+*.zip
+*.gz
+
+# MintPy / raw InSAR stacks (hundreds of GB)
+.MintPy/
+.MintPy.zip
+.PyAPS/
+.lib/
+Ascending and Descending MintPy data/
+
+# GPM / rainfall archives (~hundreds of MB)
+Average Rainfall data/
+
+# Large local outputs
+DEM visualizations/
+displacement_3d.npy
+landslides_temp.*
+
+# Scratch / duplicate experiments (not part of main pipeline)
+.Testing Mintpy/
+.Testing Xgboost model performance/
+.Miscallenous scripts/
+RandomForest MovmentLandslide threshod/
+PCA plus inital Random Forest/
+
+# Conda
+.conda/
