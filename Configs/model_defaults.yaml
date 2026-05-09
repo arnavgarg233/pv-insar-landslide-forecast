@@ -1,0 +1,13 @@
+# Paper-aligned defaults (Seven-Day Landslide Forecasting, ESEV-D-25-01196R3).
+# Reference only — training scripts may duplicate these in code until a loader is wired.
+
+random_forest:
+  n_estimators: 100
+  random_state: 42
+
+forecast:
+  horizon_days: 7
+
+pseudo_labeling:
+  # Future displacement threshold (mm) used to define unstable class
+  displacement_threshold_mm: 3.5
