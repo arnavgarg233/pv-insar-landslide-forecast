@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status: accepted](https://img.shields.io/badge/status-accepted-brightgreen.svg)](#publication)
 [![Journal](https://img.shields.io/badge/journal-Earth%20Systems%20%26%20Environment-005a87.svg)](https://www.springer.com/journal/41748)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs41748--026--01227--y-blue.svg)](https://doi.org/10.1007/s41748-026-01227-y)
 
 Official code for **seven-day landslide instability forecasting** on the **Palos Verdes Peninsula, California**, integrating a coherence-weighted **Sentinel-1 SBAS** InSAR pipeline, **Principal Component Analysis** of multi-temporal displacement, **NASA GPM IMERG** rainfall, **forecast-oriented pseudo-labeling**, and a **Random Forest** classifier. The framework anticipated ground acceleration during the historic **2024 atmospheric river** events on a held-out chronological test period.
 
@@ -29,15 +30,27 @@ Discriminative ability is statistically significant against the 50 % random-chan
 | **Journal** | [*Earth Systems and Environment*](https://www.springer.com/journal/41748) (Springer Nature) |
 | **Article type** | Original Article |
 | **Manuscript ID** | **ESEV-D-25-01196R4** |
-| **Status** | **Accepted** (DOI assignment pending) |
+| **Status** | **Accepted** |
+| **DOI** | [10.1007/s41748-026-01227-y](https://doi.org/10.1007/s41748-026-01227-y) |
 | **Author** | **Arnav Garg** (sole author, corresponding) · Palos Verdes Peninsula High School, Rancho Palos Verdes, CA, USA · [arnavgarg888@gmail.com](mailto:arnavgarg888@gmail.com) |
 | **Keywords** | InSAR · landslide forecasting · Principal Component Analysis · Random Forest · pseudo-labeling · rainfall triggers |
 
-**Citation (pre-DOI):**
+**Citation:**
 
-> Garg, A. *Seven-Day Landslide Forecasting from PCA-Derived InSAR Data with a Random Forest Classifier.* Accepted, *Earth Systems and Environment* (manuscript **ESEV-D-25-01196R4**). DOI to be assigned upon publication.
+> Garg, A. (2026). *Seven-Day Landslide Forecasting from PCA-Derived InSAR Data with a Random Forest Classifier.* Earth Systems and Environment. https://doi.org/10.1007/s41748-026-01227-y
 
-A BibTeX entry will be added once the article is assigned a DOI.
+**BibTeX:**
+
+```bibtex
+@article{garg2026landslide,
+  author  = {Garg, Arnav},
+  title   = {Seven-Day Landslide Forecasting from {PCA}-Derived {InSAR} Data with a Random Forest Classifier},
+  journal = {Earth Systems and Environment},
+  year    = {2026},
+  doi     = {10.1007/s41748-026-01227-y},
+  url     = {https://doi.org/10.1007/s41748-026-01227-y}
+}
+```
 
 ## Highlights
 
